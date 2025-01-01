@@ -1,8 +1,8 @@
 name: Security
 
-on:
-  schedule:
-    - cron: "0 1 * * *"
+# on:
+#   schedule:
+#     - cron: "0 1 * * *"
 
 jobs:
   scan:
