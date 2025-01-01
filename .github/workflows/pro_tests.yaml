@@ -5,8 +5,8 @@ on:
   push:
     paths-ignore:
       - '**.md'
-  schedule:
-    - cron: "0 0 */2 * *"
+  # schedule:
+    # - cron: "0 0 */2 * *"
   workflow_run:
     workflows: ["CLA check"]
     types:
